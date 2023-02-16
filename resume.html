@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>| Resume</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+    body {
+      background-color: #250d29;
+      color: white;
+      font-family: 'Rubik', sans-serif;
+    }
+
+    .nav-bar-head {
+      color: #c1c1c1;
+    }
+
+    .spacer {
+      margin-top: 10rem;
+    }
+
+    .intro-2 {
+      color: #441e4a;
+      text-shadow: 0px 2px 0px #ffffff5f;
+    }
+
+    li:hover {
+      cursor: pointer;
+    }
+
+    .modal-title,
+    .modal-body {
+      color: black;
+    }
+
+    .back-to-top {
+      bottom: 10%;
+      right: 10%;
+      z-index: 1;
+    }
+  </style>
+</head>
+
+<div class="position-fixed back-to-top">
+  <a class="nav-link" href="#"><i class="fa-duotone fa-up fs-3"></i></a>
+</div>
+
+<body class="container">
+  <div class="root">
+    <nav class="navbar navbar-expand-lg navbar-dark" data-aos="zoom-in-down">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="/assets/img/m-96.png" alt="Logo">
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item d-none d-sm-block">
+              <a class="btn btn-outline-light" href="#"><i class="fa-regular fa-file-user"></i> Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container spacer">
+      <div class="col-md-9 mx-auto heading">
+        <p data-aos="fade-right"><i class="fa-solid fa-hand-wave"></i> Hi there, my name is</p>
+        <h1 class="fw-bolder display-3" data-aos="fade-right" data-aos-duration="2000">
+          <img src="/assets/img/m-96.png" alt="Logo">ark Martin Coles
+        </h1>
+        <h2 class="intro-2 fw-bolder display-5 shadow-lg" data-aos="fade-right" data-aos-duration="2500">I'm a
+          Full-Stack Developer.
+        </h2>
+        <div class="col-md-8">
+          <p data-aos="fade" data-aos-duration="2500">“If you get tired, learn to rest, not quit.”</p>
+          <p data-aos="fade col-md-8" data-aos-duration="2500">
+            Give yourself rest when you need it so you can stay the course
+            through to completion, no matter how long it takes. Rest, don't quit.
+          </p>
+          <a class="btn btn-outline-light" href="https://www.facebook.com/markmartin.coles" target="_blank"
+            data-aos="fade" data-aos-duration="1000">Check out my
+            Facebook <i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container spacer mt-9">
+      <div class="col-md-9 mx-auto">
+        <div class="row">
+          <div class="col-md-8" data-aos="fade-up" data-aos-duration="1000">
+            <h4 class="fw-bolder"><i class="fa-regular fa-circle-info"></i> About me</h4>
+            <hr data-aos="fade-up" data-aos-duration="2000">
+            <p data-aos="fade-up" data-aos-duration="1000">I am a graduate of Bachelor of Science in Information
+              Technology at St. John Paul II College of Davao</p>
+            <p data-aos="fade-up" data-aos-duration="1000">I'm an experienced software engineer who constantly seeks out
+              innovative solutions to everyday problems. I've honed my analytical thinking and collaboration skills, and
+              I love working with a team.</p>
+            <span>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                Here are a few technologies I've been working with recently:
+              </p>
+              <div class="row fst-italic" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col">
+                  <ul>
+                    <li class="list-group-item" data-aos="fade-up" data-aos-duration="1000"><i
+                        class="fa-brands fa-java"></i> Java</li>
+                    <li class="list-group-item" data-aos="fade-up" data-aos-duration="1000"><i
+                        class="fa-solid fa-c"></i> C++/C#</li>
+                    <li class="list-group-item" data-aos="fade-up" data-aos-duration="1000"><i
+                        class="fa-brands fa-python"></i> Python</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li class="list-group-item" data-aos="fade-up" data-aos-duration="1500"><i
+                        class="fa-brands fa-html5"></i> HTML</li>
+                    <li class="list-group-item" data-aos="fade-up" data-aos-duration="1500"><i
+                        class="fa-brands fa-css3-alt"></i> CSS</li>
+                    <li class="list-group-item" data-aos="fade-up" data-aos-duration="1500"><i
+                        class="fa-brands fa-js"></i> JavaScript</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li class="list-group-item" data-aos="fade-up" data-aos-duration="2000"><i
+                        class="fa-solid fa-database"></i> Firebase</li>
+                    <li class="list-group-item" data-aos="fade-up" data-aos-duration="2000"><i
+                        class="fa-solid fa-server"></i> MySQL</li>
+                  </ul>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="/assets/img/random.png" alt="image" class="rounded-2 w-75 mb-4 mt-5" data-aos="fade-up"
+              data-aos-duration="1000">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+              data-aos="fade" data-aos-duration="5000"><i class="fa-solid fa-mug-saucer"></i> Buy me a coffee
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel"><i class="fa-solid fa-mug-saucer"></i> Buy me
+                      a coffee</h1>
+                  </div>
+                  <div class="modal-body">
+                    <img src="/assets/img/gCode.jpg" class="w-100" alt="Gcash Code">
+                  </div>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
+  <div class="spacer"></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

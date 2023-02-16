@@ -1,0 +1,33 @@
+body {
+    background-color: #250d29;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-bar-head {
+    color: #c1c1c1;
+}
+
+.spacer {
+    margin-top: 10rem;
+}
+
+.intro-2 {
+    color: #441e4a;
+    text-shadow: 0px 2px 0px #ffffff5f;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.modal-title,
+.modal-body {
+    color: black;
+}
+
+.back-to-top {
+    bottom: 10%;
+    right: 10%;
+    z-index: 1;
+}
